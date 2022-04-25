@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+body{
+    background-color:  hsl(218, 28%, 13%);
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px, 20px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: white;
+}
+.comment{
+    display: flex;
+}
+#arrow-icon{
+    text-align: left;
+    display: block;
+    color: aqua;
+}
+.stay-productive2 img{
+    width: 20px;
+    height:20px;
+}
+.section{
+    margin:50px auto 100px;
+}
+.items{
+    margin:40px auto 90px;
+}
+.early-access{
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    flex-flow:row nowrap;
+    width: 40%;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 20px auto;
+    position: absolute;
+    bottom: 200px;
+    left: 30%;
+}
+.footer img{
+    width: 25px;
+}
+.footer .contact p, .footer .location p{
+    display: inline-block;
+    margin-left: 10px;
+}
+@media screen and (max-width: 375px) {
+    img{
+        width: 250px;
+        max-width: 255px;
+    }
+    .nav-image img{
+        width:80px;
+        margin:13px 0 0 5px;
+    }
+    .nav-items li{
+        font-size: 12px;
+        margin-right:20px;
+    }
+    .intro{
+        text-align: center;
+    }
+    .section{
+        display: flex;
+        flex-basis: 80%;
+        flex-flow: row wrap;
+        text-align: center;
+    }
+    .items img{
+        width:60px;
+    }
+    #quote-icon{
+        width: 20px;
+        height:20px;
+    }
+    .section3 p{
+        text-align: left;
+    }
+    .stay-productive2 h2{
+        font-size: 17px;
+    }
+    .quote-image img{
+        width:40px;
+        height: 40px;
+        border-radius: 50%;
+       padding: 15px 5px;
+        margin-right: 5px;
+    }
+    .quotes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px;
+        text-align: left;
+    }
+    .quote{
+        background-color: hsl(219, 30%, 18%);
+        padding: 20px 20px 10px;
+        border-radius: 10px;
+        width:70%;
+        margin:10px auto 10px;
+    }
+    .early-access{
+        width:80%;
+        flex-flow:column wrap;
+        bottom: 30%;
+        left:4%
+    }
+    .footer{
+        background-color: hsl(216, 53%, 9%);
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        padding: 100px 0 20px;
+    }
+}
+/* .main{
+    background: url("images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsla(218, 28%, 13%, 98%);
+    width: 80%;
+    margin:0 auto;
+}
+h2, h3, p{
+    color: White;
+    font-family: Raleway;
+}
+li, h2, h3{
+    font-family: Raleway, sans-serif;
+}
+.items{
+    flex-basis: 40%;
+    margin: 15px 0 15px;
+}
+#quote-icon{
+    width: 25px;
+    height:25px;
+}
+.quote-image img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 15px;
+    margin-right: 5px;
+}
+.quotes{
+    display: flex;
+    justify-content: space-around;
+    gap: 2px;
+}
+.quote{
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px 20px 10px;
+    border-radius: 10px;
+}
+.stay-productive{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.author p{
+    padding-bottom: 15px;
+}
+.footer{
+    background-color: hsl(216, 53%, 9%);
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px;
+}
+.nav-items li{
+    margin-right: 20px;
+}
+.intro{
+    text-align: center;
+}
+.intro img{
+    width: 375px;   
+}
+#get-started{
+    background-color: rgb(101, 192, 204);
+    padding: 20px, 40px;
+    border-radius: 10%;
+}
+.section-2{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    flex-flow: row wrap;
+}
+.quotes{
+    display: flex;
+    justify-content: space-around;
+}
+.section4{
+    margin-bottom: 300px;
+} */
